@@ -1,0 +1,11 @@
+h1{
+    color: aliceblue;
+    background-color: black;
+    font-style: var(30);
+    font-family: Gubbi;
+}
+
+h1:hover{
+    background-color: darkblue;
+}
+

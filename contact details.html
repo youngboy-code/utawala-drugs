@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<form action="" class="edit">
+   <fieldset>
+        <legend>Contact us</legend>
+
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+        <label for="name">Name</label><br>
+        <input type="text" id="name" required="required"><br><br>
+
+        <label for="mail">Email</label><br>
+        <input type="email" id="mail" required="required"><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea name="Message" id="message" cols="30" rows="10"></textarea><br><br>
+        </fieldset>
+
+    </form>
+
+    <p>If you dint have a company, skip the rest</p>
+
+    <form action="" class="dit">
+
+        <fieldset>
+            <legend>Company Details</legend>
+        <label for="bname">business Name </label><br>
+        <input type="text" id="bname"><br><br>
+
+        <label for="phone">Phone Number</label></br>
+        <input type="text" id="phone"><br><br>
+
+        <label for="web">Website URL</label><br>
+        <input type="url" id="web"><br><br>
+
+        <label for="topic">Topic</label>
+        <select name="Topic" id="topic" style="background-color: lightcoral">
+            <option value="purchase">purchases</option>
+            <option value="sold">selling</option>
+
+        </select><br><br>
+
+        <label for="mmessage">Message</label><br>
+        <textarea name="Message" id="mmessage" cols="30" rows="10"></textarea><br><br>
+        </fieldset>
+
+    </form>
+
+    <button type="submit">Send</button>
+
+   </fieldset>
+</form>
+
+</body>
+</html>
